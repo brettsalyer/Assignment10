@@ -6,6 +6,8 @@ Sometimes, on rare occasions, people do things they regret on Facebook. In this 
 The options that could be considered undo-able are: add a user, delete a user, add friend, remove friend, and liking something. At a minimum, you are required to implement undo functionality for the add a friend and remove a friend option. You will receive one extra credit point for any of the other three options that you make undo-able. 
 Similar to previous assignments, you need to become comfortable with choosing the appropriate data structure for a particular task. With this in mind, you are required to have a comment somewhere in your Facebook class that indicates which data structure you have used to store the undo-able actions and explains why you have chosen it. Begin this comment with the word EXPLANATION (in all caps) so that I can search for it when grading your work. 
 You will be graded according to the following rubric (each item is worth one point): 
+
+
 • The driver menu contains the new undo option 
 • The program prompts for the password of the relevant user (the one who performed the most recent undo-able action) 
 • The action is undone only if the password is correct for the relevant user 
